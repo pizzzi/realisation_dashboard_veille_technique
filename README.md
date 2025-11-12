@@ -109,8 +109,7 @@ Ce dépôt illustre :
 
 ## 📦 Dépôt & Ressources
 
-- 🔗 Dépôt GitHub : realisation_dashboard_veille_technique
-- 🔗 API Scoring : https://my-scoring-app-546acd78d8fa.herokuapp.com/
+🔗 API Scoring : https://my-scoring-app-546acd78d8fa.herokuapp.com/
 
 ---
 
