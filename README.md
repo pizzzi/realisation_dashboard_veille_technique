@@ -31,8 +31,6 @@ Concevoir une interface interactive et explicable pour visualiser le **score de 
 - **ML Explainability** : SHAP (global + local), Feature Engineering dynamique  
 - **CI/CD & Hébergement** : Heroku + GitHub Actions  
 
----
-
 ### 💡 Fonctionnalités principales
 - Sélection d’un client et affichage de son score de crédit.  
 - Modification des informations via une **barre latérale interactive**.  
@@ -41,8 +39,6 @@ Concevoir une interface interactive et explicable pour visualiser le **score de 
   - **Jauge dynamique** du score et du seuil d’acceptabilité (52 %).  
   - **Importance globale et locale** des variables explicatives.  
   - **Analyses croisées** et **bi-variées** des variables.  
-
----
 
 ### 🧠 Interprétabilité
 - **SHAP Global** : pondération moyenne des features expliquant les décisions du modèle.  
