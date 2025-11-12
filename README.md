@@ -12,13 +12,15 @@ Ce projet combine deux volets complémentaires :
 ```text
 realisation_dashboard_veille_technique/
 │
-├── Martineau_Alexandre_3_note_méthodologique_022025.pdf    # Note méthodologique - MiniLM vs BERT
-├── Martineau_Alexandre_4_presentation_022025.pdf           # Présentation PowerPoint du projet
-│
 ├── Martineau_Alexandre_1_dashboard_022025.py               # Script principal Streamlit
 ├── Martineau_Alexandre_2_notebook_veille_022025.ipynb      # Notebook de veille technique NLP
+│
+├── Martineau_Alexandre_3_note_méthodologique_022025.pdf    # Note méthodologique - MiniLM vs BERT
+├── Martineau_Alexandre_4_presentation_022025.pdf           # Présentation PowerPoint du projet
 └── README.md
 ```
+
+---
 
 ## 🖥️ 1️⃣ Dashboard de Scoring Crédit
 
